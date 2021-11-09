@@ -29,7 +29,7 @@ class TasksController < ApplicationController
   # Delete a task (7)
   def destroy
     @task.destroy
-    # Add redirect to show page after submiting the form
+    # x - Add redirect to show page after submiting the form
     redirect_to tasks_path
   end
 
